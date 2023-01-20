@@ -1,9 +1,8 @@
-# Desenvolvimento de um Painel Gerencial para Negócio com o Streamlit.
-   Nesse projeto, os conceitos de programação em Python, manipulação de dados, pensamento estratégico e lógica de negócio, junto com ferramentas de desenvolvimento web como Streamlit e Github, foram usados para desenvolver um painel gerencial com as principais métricas de uma empresa marketplace de delivery de comida na India.
+# Painel Gerencial para a Curry Company.
    
-   O resultado final do projeto foi um painel hospedado em um ambiente Cloud e disponibilizado através de um link web. O painel pode ser acessado por qualquer dispositivo conectado com a internet.
+Este projeto tem como objetivo desenvolver um painel gerencial para acompanhar as métricas-chave da Curry Company, uma empresa de tecnologia que criou um aplicativo de entrega de comida. Com a utilização de Python, Jupyter Lab, Terminal, Streamlit, Streamlit Cloud e Github, foi possível desenvolver um painel que pode ser acessado por qualquer dispositivo conectado à internet, mostrando informações importantes como o número de entregas realizadas, renda gerada, avaliações dos entregadores e outras métricas-chave..
    
-# As ferramentas utilizadas foram:
+# Requisitos e Dependências:
       1. Python
       2. Jupyter Lab
       3. Terminal
