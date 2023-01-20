@@ -1,15 +1,37 @@
 # Painel Gerencial para a Curry Company.
    
-Este projeto tem como objetivo desenvolver um painel gerencial para acompanhar as métricas-chave da Curry Company, uma empresa de tecnologia que criou um aplicativo de entrega de comida. Com a utilização de Python, Jupyter Lab, Terminal, Streamlit, Streamlit Cloud e Github, foi possível desenvolver um painel que pode ser acessado por qualquer dispositivo conectado à internet, mostrando informações importantes como o número de entregas realizadas, renda gerada, avaliações dos entregadores e outras métricas-chave..
-   
+Este projeto tem como objetivo desenvolver um painel gerencial para acompanhar as métricas-chave da Curry Company, uma empresa de tecnologia que criou um aplicativo de entrega de comida. Com a utilização de Python, Jupyter Lab, Terminal, Streamlit, Streamlit Cloud e Github, foi possível desenvolver um painel que pode ser acessado por qualquer dispositivo conectado à internet, mostrando informações importantes como o número de entregas realizadas, renda gerada, avaliações dos entregadores e outras métricas-chave.
+     
 # Requisitos e Dependências:
-      1. Python
-      2. Jupyter Lab
-      3. Terminal
-      4. Streamlit
-      5. Streamlit Cloud
-      6. Github
 
+      1. streamlit==1.15.1
+      2. plotly==5.10.0
+      3. pandas==1.4.3
+      4. numpy==1.23.1
+      5. folium==0.13.0
+      6. matplotlib==3.5.3
+      7. matplotlib-inline==0.1.6
+      8. haversine==2.7.0
+      9. streamlit-folium==0.7.0
+      10.Pillow==9.2.0
+
+# Instalação e Execução
+   1. Faça o clone do repositório do projeto usando 'git clone https://github.com/seu_usuario/seu_projeto.git'
+   2. Entre na pasta do projeto com 'cd seu_projeto'
+   3. Instale as dependências com 'pip install -r requirements.txt'
+   4. Execute o projeto com 'streamlit run app.py'
+
+# Exemplos de Uso
+O painel gerencial pode ser usado para visualizar informações sobre:
+
+   * Número de entregas realizadas por dia, semana e mês
+   * Renda gerada por dia, semana e mês
+   * Avaliação dos entregadores
+   * E outras métricas-chave
+
+# Screenshots
+![newplot.png](https://github.com/Ricardojnf33/curry_company/blob/main/newplot.png)
+![newplot.png](https://github.com/Ricardojnf33/curry_company/blob/main/newplot2.png)
 
 
 ## Introdução
