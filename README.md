@@ -96,3 +96,17 @@ Da visão da Empresa, podemos concluir que o número de pedidos cresceu entre a 
 1. Reduzir o número de métricas
 2. Criar novos filtros.
 3. Adicionar novas visões de negócio.
+
+   ## Automatização com IA
+
+Para melhorar a experiência de usuário e a eficiência dos processos deste projeto, como próximos passos, também incluiremos automatização com IA. Algumas das funcionalidades incluem:
+
+1. Utilização de algoritmos de aprendizado de máquina para analisar dados do conjunto de dados e gerar insights automatizados para incluir no painel gerencial. Isso pode incluir previsões de vendas, análise de sentimentos dos clientes, e outras métricas.
+
+2. Implementação de uma interface de chatbot para permitir que os usuários interajam com o painel gerencial de forma mais intuitiva e conversacional.
+
+3. Utilização de técnicas de reconhecimento de imagem para processar imagens dos entregadores ou dos pedidos, para melhorar a segurança e eficiência do processo de entrega.
+
+4. Adição de uma funcionalidade de reconhecimento de voz para permitir que os usuários façam pedidos ou acessar as informações do painel gerencial de forma mais natural, usando comandos de voz.
+
+5. Utilização de técnicas de processamento de linguagem natural para analisar dados de texto, como comentários dos clientes, para gerar insights automatizados.
