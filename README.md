@@ -1,2 +1,99 @@
-# curry_company
-This repository contains files and script to build a company strategy dashboard.
+# Desenvolvimento de um Painel Gerencial para Negócio com o Streamlit.
+   Nesse projeto, os conceitos de programação em Python, manipulação de dados, pensamento estratégico e lógica de negócio, junto com ferramentas de desenvolvimento web como Streamlit e Github, foram usados para desenvolver um painel gerencial com as principais métricas de uma empresa marketplace de delivery de comida na India.
+   
+   O resultado final do projeto foi um painel hospedado em um ambiente Cloud e disponibilizado através de um link web. O painel pode ser acessado por qualquer dispositivo conectado com a internet.
+   
+# As ferramentas utilizadas foram:
+      1. Python
+      2. Jupyter Lab
+      3. Terminal
+      4. Streamlit
+      5. Streamlit Cloud
+      6. Github
+
+
+
+## Introdução
+Este conjunto de dados é sobre o serviço de entrega de comida, onde um restaurante, loja ou empresa de entrega de comida independente entrega comida a um cliente. Um pedido é geralmente feito através do site ou aplicativo móvel de um restaurante ou mercado, ou através de uma empresa de pedidos de comida. Os itens entregues podem incluir pratos principais, acompanhamentos, bebidas, sobremesas ou itens de mercearia e geralmente são entregues em caixas ou sacolas. A pessoa que faz a entrega normalmente dirige um carro, mas em cidades maiores onde as residências e os restaurantes estão mais próximos, eles podem usar bikes ou scooters motorizados.
+
+Este conjunto de dados inclui informações sobre os pedidos realizados, como os itens pedidos, os clientes que fizeram os pedidos, os restaurantes ou lojas dos quais os itens foram comprados e os entregadores que entregaram os itens. Também pode incluir informações sobre a entrega em si, como a data e hora em que o pedido foi feito, a data e hora em que o pedido foi entregue e a distância entre o restaurante ou loja e o local de entrega. Outros pontos de dados potenciais podem incluir o método de pagamento usado, o custo do pedido e quaisquer instruções ou solicitações especiais feitas pelo cliente.
+
+# 1. Problema de negócio
+
+A Curry Company é uma empresa de tecnologia que criou um aplicativo que conecta restaurantes, entregadores e pessoas.
+
+Através desse aplicativo, é possível realizar o pedido de uma refeição, em qualquer restaurante cadastrado, e recebê-lo no conforto de sua casa por um entregador também cadastrado no aplicativo da Curry Company.
+
+A empresa realiza negócios entre reastaurantes, entregadores e pessoas, e gera muitos dados sobre entregas, tipos de pedidos, condições climáticas, avaliação dos entregadores e etc. Apesar da entrega estar crescendo, em termos de entregas, o CEO não tem visibilidade completa dos KPI's de crescimento da empresa.
+
+Você foi contratado como Cientistas de Dados para criar soluções de dados para entrega, mas antes de treinar algoritmos, a necessidade da empresa é ter um dos principais KPIs estratégicos organizados em uma única ferramenta, para que o CEO possa consultar e conseguir tomar decisões simples, porém importantes.
+
+A Curry Company possui um modelo negócio chamado Marletplace, que fazer o intermédio do negócio entre três clientes principais: Restaurantes, entregaddorese pessoas compradoras. Para acompanhar o crescimento desses negócios, o CEO gostaria de ver as seguintes métricas de crescimento.
+
+1. Do lado da empresa
+
+   1. Quantidade de pedidos por dia.
+   2. Quantidade de pedidos por semana.
+   3. Distribuição dos pedidos por tipo de tráfego.
+   4. Comparação do volume de pedidos por cidade e tipo de tráfego.
+   5. A quantidade de pedidos por entregador por semana.
+   6. A localização central de cada cidade por tipo de tráfego 
+
+2. Do lado do entregador:
+
+   1. A menor e maior idade dos entregadores.
+   2. A pior e a melhor condição de veículos.
+   3. A avaliação média por entregador.
+   4. A avaliação média e o desvio padrão por tipo de tráfego.
+   5. A avaliação média e o desvio padrão por condições climáticas.
+   6. Os 10 entregadores mais rápidos por cidade.
+   7. Os 10 entregadores mais lentos por cidade.
+
+3. Do lado do restaurante:
+
+    1. Quantidade de entregadores únicos.
+    2. A distância média dos restaurantes e dos locais de entrega.
+    3. O tempo médio e o desvio padrão de entrega por cidade.
+    4. O tempo médio e o desvio padrão de entrega por cidade e tipo de pedido.
+    5. O tempo médio e o desvio padrão de entrega por cidade e tipo de tráfego.
+    6. O tempo médio de entrega durante os festivais.
+
+O objetivo desse projeto pe criar um conjunto de gráficos e tabelas que exibam essas métricas da melhor forma possível para o CEO.
+
+# 2. Premissas assumidas para a análise
+ 
+  * A nálise foi realizada com dados entre 11/02/2022 e 06/04/2022.
+  * Marketplace foi o modelo de negocio assumido.
+  * Os 3 principais visões do negócio foram: Visão transaçãode pedidos, visão restaurante e visão entregadores
+  
+# 3. Estratégia da solução
+  
+O painel estratégico foi desenvolvido utilizando as métricas que refletem as 3 principais visões do modelo de negócio da empresa:
+
+ 1.0 Visão da empresa
+ 2.0 Visão do entregador
+ 3.0 Visão do restaurante
+
+# 4. Top 3 Insights de dados
+  
+  1. A sazonalidade da quantidade de pedidos é diária. Há uma variação de aproximidamente 10% do número de pedidos em dia sequenciais.
+  2. As cidades do tipo Semi-Urban não possuem condições baixas de trânsito.
+  3. As maiores variaçõess no tempo de entregam acontecem durante o clima ensolarado.
+
+# 5. O produto final do projeto
+
+Painel online, hospedado em uma Cloud e disponível para acesso em qualquer dispositivo conectado à internet
+
+O painel pode ser acessado através do link: https://cheetahds-curry-company.streamlit.app/
+
+# 6. Conclusão
+  
+O objetivo desse projeto é criar um conjunto de gráficos ou tabelas que exibam essas métricas da melhor forma possível para o CEO.
+
+Da visão da Empresa, podemos concluir que o número de pedidos cresceu entre a semana 06 e a semana 13 do ano de 2022.
+
+# 7. Próximos passos
+  
+1. Reduzir o número de métricas
+2. Criar novos filtros.
+3. Adicionar novas visões de negócio.
