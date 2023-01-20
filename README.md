@@ -131,4 +131,4 @@ Para melhorar a experiência de usuário e a eficiência dos processos deste pro
 
 4. Adição de uma funcionalidade de reconhecimento de voz para permitir que os usuários façam pedidos ou acessar as informações do painel gerencial de forma mais natural, usando comandos de voz.
 
-5. Utilização de técnicas de processamento de linguagem natural para analisar dados de texto, como comentários dos clientes, para gerar insights automatizados.
+5. Utilização de técnicas de processamento de linguagem natural para analisar dados de texto, como comentários dos clientes, para gerar insights automatizados..
