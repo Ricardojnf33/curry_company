@@ -16,10 +16,10 @@ Este projeto tem como objetivo desenvolver um painel gerencial para acompanhar a
       10.Pillow==9.2.0
 
 # Instalação e Execução
-   1. Faça o clone do repositório do projeto usando 'git clone https://github.com/Ricardojnf33/curry_company.git'
-   2. Entre na pasta do projeto com 'cd curry_company'
-   3. Instale as dependências com 'pip install -r requirements.txt'
-   4. Execute o projeto com 'streamlit run Home.py'
+   1. Faça o clone do repositório do projeto usando ```git clone https://github.com/Ricardojnf33/curry_company.git```
+   2. Entre na pasta do projeto com ```cd curry_company```
+   3. Instale as dependências com ```pip install -r requirements.txt```
+   4. Execute o projeto com ```streamlit run Home.py```
 
 # Exemplos de Uso
 O painel gerencial pode ser usado para visualizar informações sobre:
