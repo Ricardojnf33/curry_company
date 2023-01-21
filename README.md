@@ -83,7 +83,7 @@ O objetivo desse projeto pe criar um conjunto de gráficos e tabelas que exibam 
 
 # 2. Premissas assumidas para a análise
  
-  * A nálise foi realizada com dados entre 11/02/2022 e 06/04/2022.
+  * A análise foi realizada com dados entre 11/02/2022 e 06/04/2022.
   * Marketplace foi o modelo de negocio assumido.
   * Os 3 principais visões do negócio foram: Visão transaçãode pedidos, visão restaurante e visão entregadores
   
