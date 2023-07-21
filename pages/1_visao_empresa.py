@@ -167,7 +167,7 @@ st.sidebar.markdown( """___""" )
 st.sidebar.markdown( '## Selecione uma data limite' )
 date_slider = st.sidebar.slider( 
     'Até qual valor?',
-    value=pd.datetime( 2022, 4, 13 ),
+    value=pd.Timestamp(2022, 4, 13),
     min_value=pd.datetime(2022, 2, 11),
     max_value=pd.datetime(2022, 4, 6),
     format='DD-MM-YYYY' )
@@ -200,7 +200,7 @@ df1 = df1.loc[linhas_selecionadas, :]
              #LAYOUT DO STREAMLIT
 #=======================================================
 
-tab1, tab2, tab3 = st.tabs( ['Visão Gerencial', 'Visão Tática', 'Visão_Geográfica'] )
+tab1, tab2, tab3 = st.tabs( ['Visão Gerencial', 'Visão Tática', 'Visão Geográfica'] )
 
 with tab1:
     with st.container():
